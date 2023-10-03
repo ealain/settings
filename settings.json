@@ -1,0 +1,52 @@
+{
+  "keyboard.dispatch": "keyCode",
+  "eslint.validate": [
+    "javascript",
+    "javascriptreact",
+    "typescript",
+    "typescriptreact"
+  ],
+  "vim.handleKeys": {
+    "<C-q>": false,
+    "<C-p>": false
+  },
+  "explorer.confirmDelete": false,
+  "files.insertFinalNewline": true,
+  "editor.minimap.enabled": false,
+  "editor.acceptSuggestionOnCommitCharacter": false,
+  "search.useIgnoreFiles": false,
+  "gitlens.blame.toggleMode": "window",
+  "telemetry.telemetryLevel": "off",
+  "editor.unicodeHighlight.includeComments": false,
+  "editor.inlineSuggest.enabled": true,
+  "typescript.updateImportsOnFileMove.enabled": "always",
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "editor.scrollBeyondLastLine": false,
+  "gitlens.hovers.currentLine.over": "line",
+  "gitlens.codeLens.enabled": false,
+  "editor.smoothScrolling": true,
+  "cSpell.language": "en,fr",
+  "files.autoSave": "afterDelay",
+  "files.autoSaveDelay": 2000,
+  "terminal.integrated.commandsToSkipShell": ["-workbench.action.quickOpen"],
+  "gitlens.statusBar.enabled": false,
+  "gitlens.views.commits.pullRequests.enabled": false,
+  "gitlens.views.commits.showBranchComparison": false,
+  "gitlens.views.commits.files.layout": "tree",
+  "gitlens.views.formats.commits.label": "${message}",
+  "editor.fontFamily": "'Droid Sans Mono', 'monospace', monospace, 'Noto Color Emoji'",
+  "window.zoomLevel": 2,
+  "editor.inlayHints.enabled": "off",
+  "git.mergeEditor": true,
+  "typescript.autoClosingTags": false,
+  "editor.autoClosingBrackets": "never",
+  "gitlens.heatmap.ageThreshold": 14,
+  "gitlens.heatmap.fadeLines": false,
+  "editor.codeActionsOnSave": {
+    "source.fixAll": true
+  },
+  "[json]": {
+    "editor.defaultFormatter": "esbenp.prettier-vscode"
+  },
+  "editor.formatOnSave": true
+}
